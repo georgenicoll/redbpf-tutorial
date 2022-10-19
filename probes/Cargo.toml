@@ -22,3 +22,8 @@ path = "src/lib.rs"
 name = "openmonitor"
 path = "src/openmonitor/main.rs"
 required-features = ["probes"]
+
+[[bin]]
+name = "ip_translator"
+path = "src/ip_translator/main.rs"
+required-features = ["probes"]
